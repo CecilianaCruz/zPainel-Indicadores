@@ -1,0 +1,209 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #023047
+}
+
+
+.rodape{
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+}
+
+
+
+.redes{
+margin: 10px;
+}
+
+
+.rodape a{
+    text-decoration: none;
+    color: white;
+}
+.rodape p{
+    margin-bottom: 1px;
+}
+.rodape-div{
+    display: flex;
+    width:100%;
+    margin: 80px;
+    align-items: stretch;
+    margin-top: 130px;
+    margin-left: 20%;
+}
+
+
+.button {
+    background-color: rgb(210, 218, 210);;
+
+}
+
+.navbar{
+
+}
+
+main h1{
+    color: #282b28;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+main h2{
+    color:rgb(56, 53, 53) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.titulo{
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #b2f0b3;
+
+}
+
+
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+.rodape span{
+    font-size: 20px;
+    color: white;
+}
+.rodape-direitos{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+        width: calc(50% - 20px);
+        padding: 10px;
+    }
+    .rodape-div{
+        padding: 60px 0px 40px 0px;
+    }
+
+}
+
+@media (max-width: 408px) {
+    .rodape-div-4 a{
+        color: rgb(114, 201, 114);
+
+}
+
+}
+
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+
+  }
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 10px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px
+}
+
+.body{
+    background-color: rgb(158, 223, 158);;
+}
+
+.rodape-div-4 a{
+    color: white;
+    margin-left: 15px;
+}
+
+.rodape-div-4 a:hover{
+    color: #D0FFD1;
+    ;
+}
+
+.areaLogin img {
+    width: 420px;
+}
+
+.formLogin h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.formLogin p {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+
+.formLogin input {
+    padding: 5px;
+    width: 300px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+
+.formLogin input:focus {
+    border: 1px solid #7c98e4;
+}
+
+.formLogin label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.formLogin a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: rgb(46, 46, 120);
+    transition: all linear 160ms;
+}
+
+.formLogin a:hover {
+    color: rgb(46, 46, 120);
+}
+
+.btn {
+    background-color:  rgb(46, 46, 120);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+
+
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color:  rgb(46, 46, 120);
+
+} 

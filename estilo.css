@@ -1,0 +1,242 @@
+body{
+    background-color: white;
+}
+
+.container{
+    background-color: #023047;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    
+
+}
+
+.container a{
+    color: white;
+}
+
+.container a:hover{
+    color: #b2f0b3;
+}
+
+.rodape-div-4{
+ margin-left: 50%;
+}
+
+.rodape-div-4 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+
+}
+
+.sair{
+    height: 35px;
+    width: 60px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border-color: #b2f0b3;
+    background-color: #023047;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+    /* Estilos para o menu */
+    .menu {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .menu-item {
+        position: relative;
+    }
+    
+    /* Estilo para a opção principal */
+    .main-option {
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #333;
+        background-color: #023047;
+        display: block;
+        border-radius: 5px;
+    }
+    
+    /* Estilo para o submenu */
+    .submenu {
+        display: none; /* Esconde as opções adicionais por padrão */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #023047;
+        border-radius: 5px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    .submenu-option {
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #333;
+        display: block;
+        white-space: nowrap;
+    }
+    
+    .submenu-option:hover {
+        background-color: #023047;
+    }
+    
+    /* Mostra o submenu ao passar o mouse sobre a opção principal */
+    .menu-item:hover .submenu {
+        display: block;
+    }
+
+
+.sair:hover{
+    background-color: #b2f0b3;
+    color: #023047;
+    border: none;
+}
+
+h1{
+    color: white;
+}
+
+.opa2{
+    height: 1000px;
+    width: 1000px;
+ /*   background-color: #022638;*/
+    position: absolute;
+    margin-left: 20%;
+}
+
+.opcoes {
+    display: none; /* Esconde as opções inicialmente */
+    color: white;
+}
+
+.opcoes a{
+    color: white;
+}
+
+.mostrar {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.maisopcoes{
+    display: block;
+    margin: auto;
+    color: white;
+}
+
+
+.maisopcoes a:hover{
+    font-weight: bold;
+}
+
+.maisopcoes a{
+    text-decoration: none;
+}
+
+.barra2{
+    display: flex;
+}
+
+.titulo p{
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #fdfdfd;
+    font-size: 25px;
+}
+
+.titulo{
+    width: 800px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+@media (max-width: 800px) {
+    .rodape-div-4 {
+        margin-left: none;
+    }
+
+    .imagem, .imagem2{
+        display: none;
+    }
+
+}
+
+
+
+.indicadores1 a{
+    text-decoration: none;
+}
+
+
+
+.indicadores1 img{
+    height: 2px;
+}
+
+.imagem{
+    position: absolute;
+    height: 10px;
+    margin-left: 682px;
+    margin-top: 15px;}
+
+.barra{
+    background-color: #023047;
+    height: calc(100vh - 70px);
+    width: 200px;
+}
+
+
+.imagem2{
+    position: absolute;
+    height: 10px;
+    margin-left: 670px;
+    margin-top: 300px;
+}
+
+
+.linha{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(116, 114, 114);
+    transform: scaleY(0.5);
+}
+
+.ind1{
+    color: white;
+    display: flex;
+    border-radius: 5px;
+    border-width: 1.3px;
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 10px;
+}
+
+.ind1:hover{
+    background-color: #022638;
+    color: white;
+    border-color: #023047;
+}
+p{
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}

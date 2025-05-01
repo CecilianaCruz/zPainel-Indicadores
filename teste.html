@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar mais opções</title>
+    <style>
+        .opcoes {
+            display: none; /* Esconde as opções inicialmente */
+            margin-left: 20px;
+        }
+
+        .mostrar {
+            cursor: pointer;
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h2>Escolha uma opção:</h2>
+    
+    <!-- Primeira opção que, ao ser clicada, mostra mais duas opções -->
+    <div>
+        <p class="mostrar" onclick="mostrarOpcoes()">Clique aqui para mostrar mais opções</p>
+        <div id="opcoes" class="opcoes">
+            <p>Opção 1: <input type="checkbox" name="opcao1"> Habilitar opção 1</p>
+            <p>Opção 2: <input type="checkbox" name="opcao2"> Habilitar opção 2</p>
+        </div>
+    </div>
+
+    <script>
+        function mostrarOpcoes() {
+            var opcoes = document.getElementById("opcoes");
+            if (opcoes.style.display === "none") {
+                opcoes.style.display = "block"; // Mostra as opções
+            } else {
+                opcoes.style.display = "none"; // Esconde as opções se já estiverem visíveis
+            }
+        }
+    </script>
+</body>
+</html>
